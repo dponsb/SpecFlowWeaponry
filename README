@@ -1,1 +1,7 @@
 Super cool weaponry based mayhem which also illustrates use of BDD with SpecFlow!
+
+Also trying out Should.Fluent for assertions.
+
+SpecFlow: http://www.specflow.org/
+
+Should.Fluent: http://should.codeplex.com/
