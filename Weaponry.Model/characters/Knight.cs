@@ -6,7 +6,7 @@ namespace Weaponry.Model
     {
         public Knight()
         {
-            this.SetWeapon(new SwordBehaviour());
+            this.SetWeapon(new Sword());
         }
     }
 }

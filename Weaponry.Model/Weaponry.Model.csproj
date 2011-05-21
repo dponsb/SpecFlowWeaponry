@@ -43,9 +43,10 @@
     <Compile Include="characters\Character.cs" />
     <Compile Include="characters\Knight.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="weapons\AxeBehaviour.cs" />
+    <Compile Include="weapons\Axe.cs" />
     <Compile Include="weapons\Hammer.cs" />
-    <Compile Include="weapons\SwordBehaviour.cs" />
+    <Compile Include="weapons\Sword.cs" />
+    <Compile Include="weapons\Weapon.cs" />
     <Compile Include="weapons\WeaponBehaviour.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

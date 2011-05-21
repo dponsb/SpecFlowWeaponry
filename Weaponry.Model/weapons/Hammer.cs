@@ -2,15 +2,11 @@
 
 namespace Weaponry.Model
 {
-    public class Hammer : WeaponBehaviour
+    public class Hammer : Weapon
     {
-        #region WeaponBehaviour Members
-
-        public void UseWeapon()
+        public Hammer()
         {
-            Console.WriteLine("Bash!");
+            Effect = "Bash!";
         }
-
-        #endregion
     }
 }

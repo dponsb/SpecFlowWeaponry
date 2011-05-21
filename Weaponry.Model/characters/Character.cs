@@ -5,6 +5,14 @@ namespace Weaponry.Model
     {
         private WeaponBehaviour _weapon;
 
+        public WeaponBehaviour CurrentWeapon
+        {
+            get
+            {
+                return _weapon;
+            }
+        }
+
         public void fight()
         {
             _weapon.UseWeapon();
