@@ -14,7 +14,7 @@ namespace Weaponry.Behaviours
         {
             Hammer hammer = new Hammer();
             _knight.SetWeapon(hammer);
-            hammer.Should().Equal(_knight.CurrentWeapon);
+            _knight.CurrentWeapon.Should().Equal(hammer);
         }
 
         [Given(@"I have an Axe")]
@@ -22,7 +22,7 @@ namespace Weaponry.Behaviours
         {
             Axe axe = new Axe();
             _knight.SetWeapon(axe);
-            axe.Should().Equal(_knight.CurrentWeapon);
+            _knight.CurrentWeapon.Should().Equal(axe);
         }
 
         [Given(@"I have a Sword")]
@@ -30,7 +30,7 @@ namespace Weaponry.Behaviours
         {
             Sword sword = new Sword();
             _knight.SetWeapon(sword);
-            sword.Should().Equal(_knight.CurrentWeapon);
+            _knight.CurrentWeapon.Should().Equal(sword);
         }
 
         [When(@"I use it")]
